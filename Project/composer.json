@@ -1,0 +1,10 @@
+{
+    "name": "madeujr/project",
+    "description": "Testando Composer do PHP",
+    "autoload": {
+        "psr-4": {
+            "Madeujr\\Project\\": "src/"
+        }
+    },
+    "require": {}
+}
