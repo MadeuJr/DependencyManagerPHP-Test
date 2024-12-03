@@ -1,10 +1,13 @@
 {
     "name": "madeujr/project",
     "description": "Testando Composer do PHP",
+    "type": "project",
     "autoload": {
         "psr-4": {
             "Madeujr\\Project\\": "src/"
         }
     },
-    "require": {}
+    "require": {
+        "mpdf/mpdf": "^8.2"
+    }
 }

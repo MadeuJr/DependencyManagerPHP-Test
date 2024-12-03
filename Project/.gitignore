@@ -1,0 +1,23 @@
+# Ignorar arquivos de dependências do Composer
+/vendor
+/composer.lock
+/vendor/composer
+
+# Ignorar pastas de cache e logs
+/.phpunit/
+/.idea/
+/.vscode/
+/*.log
+
+# Ignorar arquivos temporários do sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos de backup e temporários de editores
+*~
+*.swp
+*.swo
+*.bak
+
+# Ignorar arquivos de configuração do Composer
+composer.phar
